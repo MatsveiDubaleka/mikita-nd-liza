@@ -68,7 +68,7 @@ function App() {
         <>
             <img src={logo} className="App-logo" alt="logo" />
             {step === 0 && <p className='tooltip'>Тыцкай па кнопачцы і мы пачнем нашу падарожжа!</p>} 
-            {step > 8 || step < 0 && <p className='error'>ЗНОЎ ТЫ ХОЧАШ УСЕ ЗЛАМАЦЬ!!</p>} 
+            {(step > 8 || step < 0) && <p className='error'>ЗНОЎ ТЫ ХОЧАШ УСЕ ЗЛАМАЦЬ!!</p>} 
         </> 
         : 
         <>
